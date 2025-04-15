@@ -1,2 +1,2 @@
 # TeamWeb
-A demo for Team Website or Academic Lab Website
+A ready-to-use responsive website demo for Team or Academic Lab.
