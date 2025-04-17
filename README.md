@@ -4,7 +4,7 @@ A ready-to-use responsive website demo for Team or Academic Lab.
 ![](https://cdn.nlark.com/yuque/0/2025/svg/2700122/1744895276909-7ab56152-c2ea-4194-b0ea-0c6619cf8d8d.svg)
 
 ## 网页预览（TeamWeb preview）
-+ TeamWeb preview：[https://teamweb.biometa.top/](https://teamweb.biometa.top/)
++ TeamWeb preview：[https://zz.biometa.top/TeamWeb/](https://zz.biometa.top/TeamWeb/)
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744883785753-4e21eeb9-a71c-4c90-ac1e-7bdeda07750d.png)
 
@@ -100,11 +100,11 @@ Font Awesome
 
 ## 使用指南（Beginner's Guide）
 ### 1.准备环境（Prepare the environment）
-下载安装 [Node.js](https://nodejs.org/en/download) 配置开发环境（建议选择 v22.14.0版本）
+下载安装[`Node.js`](https://nodejs.org/en/download) 配置开发环境（建议选择`v22.14.0`版本）
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1743668019419-4900bba0-e8d9-4213-91c3-75ee74cb6920.png)
 
-验证 Node.js 和 npm 是否安装成功，出现版本号即成功
+验证`Node.js`和`npm`是否安装成功，出现版本号即成功
 
 ```bash
 > node -v
@@ -115,11 +115,23 @@ v22.14.0
 ```
 
 ### 2.克隆仓库（Clone TeamWeb）
-直接点击 Use this template 选择 Create a new repository，自定义命名，创建完成后从 Github 中克隆  该项目到本地
+从`Github`中克隆该项目到本地。
 
 ```bash
-# git clone git@github.com:ZaakZoeng/TeamWeb.git
-git clone your repo
+git clone git@github.com:ZaakZoeng/TeamWeb.git
+# git clone your repo
+```
+
+也可以直接点击“Use this template”选择“Create a new repository”，自定义命名（⚠⚠⚠请注意自定义命名时和后面使用GitHub Pages部署息息相关，如果你计划使用`https://yourname.github.io/TeamWeb/`作为域名，则直接按照本指南操作即可；如果你计划直接使用`https://yourname.github.io/`作为域名，则需要克隆后在`vite.config.ts`中修改代码）。
+
+`vite.config.ts`
+```typescript
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+    base: "./", // 设置部署路径为 ./，使用 GitHub Pages 时对应https://yourname.github.io/，
+    // base: "/TeamWeb/", // 设置部署路径为 /TeamWeb/，使用 GitHub Pages 时对应https://yourname.github.io/TeamWeb/
+});
 ```
 
 ### 3.安装依赖（Install dependencies）
@@ -131,23 +143,23 @@ git clone your repo
 ```
 
 ### 4.开发模式（Development model）
-运行项目进入开发模式，浏览器访问本地地址：[http://localhost:5173/](http://localhost:5173/) 可预览项目（此时项目已经在本地 run 起来了，在开发模式中继续配置数据可实时刷新预览结果）
+运行项目进入开发模式，浏览器访问本地地址：[http://localhost:5173/TeamWeb/](http://localhost:5173/TeamWeb/) 可预览项目（此时项目已经在本地 run 起来了，在开发模式中继续配置数据可实时刷新预览结果）
 
 ```bash
 > npm run dev
 
-VITE v4.5.11  ready in 2030 ms
+  VITE v4.5.11  ready in 696 ms
 
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: http://192.168.30.11:5173/
-  ➜  Network: http://172.16.0.177:5173/
+  ➜  Local:   http://localhost:5173/TeamWeb/
+  ➜  Network: http://172.29.172.208:5173/TeamWeb/
+  ➜  press h to show help
 ```
 
 ### 5.配置网页内容（Configure web content）
-TeamWeb 是基于页面独立的逻辑进行开发完成的，即每一个页面使用一个独立的配置文件，用户可以开箱即用，直接更改 /public/assets 中的资产内容，然后修改 /public/jsons 中的配置项对数据内容更新。
+TeamWeb 是基于页面独立的逻辑进行开发完成的，即每一个页面使用一个独立的配置文件，用户可以开箱即用，直接更改`/public/assets`中的资产内容，然后修改`/public/jsons`中的配置项对数据内容更新。
 
 ### 00.basic
-基础配置主要是针对Header导航栏和Footer底栏的图文配置，用户可以更换为自己的内容。
+基础配置主要是针对 Header 导航栏和 Footer 底栏的图文配置，用户可以更换为自己的内容。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744892193464-933f7f1e-f287-45e3-8577-56f718a7e0c6.png)
 
@@ -175,7 +187,7 @@ TeamWeb 是基于页面独立的逻辑进行开发完成的，即每一个页面
 ```
 
 ### 01.home
-首页主要展示了实验室主题以及Hot News内容。
+首页主要展示了实验室主题以及 Hot News 内容。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744891919103-4734b88d-a24f-4bab-936f-ccb8b8b2382a.png)
 
@@ -191,7 +203,7 @@ TeamWeb 是基于页面独立的逻辑进行开发完成的，即每一个页面
     "news": [				// 首页Hot News信息
         {
             "title": "🔥🔥🔥 TeamWeb is now live!",		// 文本
-            "link": "https://teamweb.biometa.top/",		// 链接
+            "link": "https://zz.biometa.top/TeamWeb/",		// 链接
             "datetime": "2025-04-15",		// 时间格式XXXX-XX-XX
             "address": "Online",				// 文本
             "introduction": "TeamWeb is a fully integrated, collaborative web platform designed to enhance the productivity and efficiency of teams. Whether you are part of an academic lab, a research group, or a business team, TeamWeb provides all the essential tools to streamline your workflows. From customizable dashboards and interactive data visualizations to real-time communication and task management, TeamWeb helps your team stay organized and focused. With its intuitive interface and seamless integration with various third-party services, TeamWeb enables you to collaborate effortlessly, manage projects efficiently, and track progress in real-time. The platform is responsive, so you can access your team’s work from any device, anywhere, ensuring that you stay connected even when working remotely. TeamWeb is more than just a demo – it’s a powerful, ready-to-use solution for any team looking to optimize their collaboration and project management processes.",		// 文本
@@ -199,7 +211,7 @@ TeamWeb 是基于页面独立的逻辑进行开发完成的，即每一个页面
         },
         {
             "title": "News 1",
-            "link": "https://teamweb.biometa.top/",
+            "link": "https://zz.biometa.top/TeamWeb/",
             "datetime": "2025-10-01",
             "address": "Online",
             "introduction": "Stay updated with the latest news and updates from TeamWeb. We're constantly improving our platform to provide you with new features and a better experience.",
@@ -210,7 +222,7 @@ TeamWeb 是基于页面独立的逻辑进行开发完成的，即每一个页面
 ```
 
 ### 02.research
-Research页主要展示团队的多个研究方向介绍。
+Research 页主要展示团队的多个研究方向介绍。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744891881235-ef716caa-d3c5-45a5-9e07-53bcb75e98bf.png)
 
@@ -240,7 +252,7 @@ Research页主要展示团队的多个研究方向介绍。
 ```
 
 ### 03.team
-Team页展示团队成员、合作单位等信息。
+Team 页展示团队成员、合作单位等信息。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744892040231-dbdf1ddb-3da3-4d97-a4d3-32b01410cda9.png)
 
@@ -386,7 +398,7 @@ Team页展示团队成员、合作单位等信息。
 ```
 
 ### 04.publications
-Publications主要展示刊物发表情况。
+Publications 主要展示刊物发表情况。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744893210483-cec6733b-fb0f-4768-a5da-546094a5e78d.png)
 
@@ -402,7 +414,7 @@ Publications主要展示刊物发表情况。
 }
 ```
 
-值得注意的是，《刊物发表》的配置项与其他页面配置方式有所不同，为了更便于文献的展示，项目使用了常见的bibtex引文格式，用户直接复制文献的bib引文到 `/public/assets/04.publications/papers.bib` 中即可完成配置，除此之外，每个paper还支持额外配置“keywords、google_scholar、pmid、website、chinese_report、pdf、citation”等内容。
+值得注意的是，《刊物发表》的配置项与其他页面配置方式有所不同，为了更便于文献的展示，项目使用了常见的`bibtex`引文格式，用户直接复制文献的 bib 引文到 `/public/assets/04.publications/papers.bib` 中即可完成配置，除此之外，每个 paper 还支持额外配置“keywords、google_scholar、pmid、website、chinese_report、pdf、citation”等内容。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744893180374-a9fc4486-2404-41b0-93bc-5b2059ec5921.png)
 
@@ -443,7 +455,7 @@ Publications主要展示刊物发表情况。
 ```
 
 ### 05.resources
-Resources页面主要展示各种资源链接，提供一个公共的跳板。
+Resources 页面主要展示各种资源链接，提供一个公共的跳板。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744893252441-d8d03993-2f74-4265-b80c-97ddb4ef6455.png)
 
@@ -542,11 +554,11 @@ Resources页面主要展示各种资源链接，提供一个公共的跳板。
 ```
 
 ### 06.moments
-Moments页面记录团队的高光时刻。
+Moments 页面记录团队的高光时刻。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744893321303-e9b91376-09b1-492a-8786-b19fb18fed93.png)
 
-整个项目支持响应式布局，即在不同大小设备屏幕上有相应的布局展示，在Moments页面中尤为明显，具体体现在宽屏时为左右对称布局展示moments内容，窄屏时则统一调整至左侧时间线展示moments。
+整个项目支持响应式布局，即在不同大小设备屏幕上有相应的布局展示，在 Moments 页面中尤为明显，具体体现在宽屏时为左右对称布局展示 moments 内容，窄屏时则统一调整至左侧时间线展示 moments。
 
 `/public/jsons/06.moments.json`
 
@@ -583,7 +595,7 @@ Moments页面记录团队的高光时刻。
 ```
 
 ### 07.contact
-Contact是联系信息的展示。Contact页面中引入的地图是Leaflet地图的HTML格式文件，用户可以自行前往[https://leafletjs.com/](https://leafletjs.com/)使用定义。
+Contact 是联系信息的展示。Contact 页面中引入的地图是 Leaflet 地图的 HTML 格式文件，用户可以自行前往 [https://leafletjs.com/](https://leafletjs.com/) 使用定义。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744894366327-3b21c46a-9943-4f11-bed6-b23eeeb6c701.png)
 
@@ -607,19 +619,19 @@ Contact是联系信息的展示。Contact页面中引入的地图是Leaflet地�
 ```
 
 ### 6.生产环境打包（Package the project）
-开发完成后需要打包项目，打包完成后会出现 /dist 文件夹
+开发完成后需要打包项目，打包完成后会出现`/dist`文件夹
 
 ```bash
 > npm run build
 ```
 
 ### 7.部署项目（Deploy the project）
-提前下载好 [Git](https://git-scm.com/) 工具。这里仅分享直接使用 GitHub Pages 部署 TeamWeb 项目，本质上是利用 Github Pages 部署基于 Vue 开发的静态页面的方法。为了方便用户的代码能够完整保存与长远维护，本方法采用“主干与分支”的思路进行分别处理：
+提前下载好 [Git](https://git-scm.com/) 工具。这里仅分享直接使用`GitHub Pages`部署 TeamWeb 项目，本质上是利用`Github Pages`部署基于`Vue`开发的静态页面的方法。为了方便用户的代码能够完整保存与长远维护，本方法采用“主干与分支”的思路进行分别处理：
 
 + 主干 main：用来存储全部代码
 + 分支 gh-pages：用来部署静态页面
 
-首先，需要将所有代码使用 git 指令上传到该项目的主干（main）中
+首先，需要将所有代码使用`git`指令上传到该项目的主干`main`中
 
 ```bash
 # 添加要上传的全部文件
@@ -635,7 +647,7 @@ Contact是联系信息的展示。Contact页面中引入的地图是Leaflet地�
 > git push
 ```
 
-其次，将打包好的 dist 上传到该项目的分支 （gh-pages）中
+其次，将打包好的`dist`上传到该项目的分支`gh-pages`中
 
 ```bash
 # 查看分支
@@ -669,7 +681,7 @@ Contact是联系信息的展示。Contact页面中引入的地图是Leaflet地�
 # git branch -d gh-pages
 ```
 
-然后，在 Github 的该项目中选择“Settings”，在“General”中选择“Pages”。再选择“Deploy from a branch”，稍等完成处理。
+然后，在`Github`的该项目中选择“Settings”，在“General”中选择“Pages”。再选择“Deploy from a branch”，稍等完成处理。
 
 ## 参考工具（Reference Tools）
 + Get Emoji：[https://getemoji.com/](https://getemoji.com/)

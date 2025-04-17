@@ -48,7 +48,7 @@ onMounted(async () => {
           <div>© {{ startYear }} - {{ currentYear }} <a v-for="(item, index) in poweredList" :key="index"
               :href="item.link" target="_blank" style="color: #409eff">{{ item.name }}. </a>
             <div>
-              Powered by <a href="https://teamweb.biometa.top/" target="_blank">TeamWeb</a></div>
+              Powered by <a href="https://zz.biometa.top/TeamWeb/" target="_blank">TeamWeb</a></div>
           </div>
         </div>
       </el-menu>
@@ -69,7 +69,7 @@ onMounted(async () => {
           <div>© {{ startYear }} - {{ currentYear }} <a v-for="(item, index) in poweredList" :key="index"
               :href="item.link" target="_blank" style="color: #409eff">{{ item.name }}. </a>
             <div>
-              Powered by <a href="https://teamweb.biometa.top/" target="_blank">TeamWeb</a></div>
+              Powered by <a href="https://zz.biometa.top/TeamWeb/" target="_blank">TeamWeb</a></div>
           </div>
         </div>
       </div>

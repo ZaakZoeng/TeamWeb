@@ -35,7 +35,8 @@ export default defineConfig({
       ],
     }),
   ],
-  base: "./", // 设置打包路径
+  // base: "./", // 设置部署路径为 ./，使用 GitHub Pages 时对应https://yourname.github.io/，
+  base: "/TeamWeb/", // 设置部署路径为 /TeamWeb/，使用 GitHub Pages 时对应https://yourname.github.io/TeamWeb/
   resolve: {
     alias: {
       // "@": fileURLToPath(new URL("./src", import.meta.url)),
