@@ -1,0 +1,14 @@
+{
+    "basic": {
+        "subtitle": "Our Detail Information",
+        "slogan": "Contact us at any time"
+    },
+    "content": {
+        "name": "Ze Zhang",
+        "institution": "Indie developer",
+        "address": "Hangzhou 310030, Zhejiang Province, China",
+        "phone": "+86-19276868848",
+        "email": "zaakzoeng@gmail.com"
+    },
+    "map": "./assets/07.contact/map.html"
+}

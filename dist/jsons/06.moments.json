@@ -1,0 +1,57 @@
+{
+    "basic": {
+        "subtitle": "Highlight Moment of Lab",
+        "slogan": "Browse laboratory happy moments"
+    },
+    "moments": [
+        {
+            "date": "2025-03-21",
+            "title": "FACdb is a milestone for me! ✨✨✨",
+            "link": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1557285/full",
+            "image": "./assets/06.moments/20250321-FACdb.jpeg",
+            "isShow": true
+        },
+        {
+            "date": "2024-07-01",
+            "title": "2BF club is established !!! ✨✨✨",
+            "link": "https://2bf.biometa.top/",
+            "image": "",
+            "isShow": true
+        },
+        {
+            "date": "2024-04-10",
+            "title": "Contributed to a project that was published in Nature !!! ✨✨✨",
+            "link": "https://casadbtools.com/",
+            "image": "./assets/06.moments/20240410-Nature_CASA.png",
+            "isShow": true
+        },
+        {
+            "date": "2023-02-28",
+            "title": "Successfully transitioned from a master’s program to a doctoral program. 😊",
+            "link": "http://hias.ucas.ac.cn/life/info/1437/1763.htm",
+            "image": "",
+            "isShow": true
+        },
+        {
+            "date": "2023-01-27",
+            "title": "My first paper has been published online. ✨",
+            "link": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-023-09135-5",
+            "image": "",
+            "isShow": true
+        },
+        {
+            "date": "2022-03-23",
+            "title": "BioMeta wechat public account was launched. Follow us for more information!",
+            "link": "https://biometa.top/",
+            "image": "./assets/06.moments/20220323-BioMeta.jpeg",
+            "isShow": true
+        },
+        {
+            "date": "2021-07-01",
+            "title": "Graduated with a bachelor’s degree from Nanchang University. 🎓🎓🎓",
+            "link": "https://mp.weixin.qq.com/s/YBx8UCBbt-gQZH9FALDaxw",
+            "image": "./assets/06.moments/20210701-Graduation_from_NCU.jpg",
+            "isShow": true
+        }
+    ]
+}

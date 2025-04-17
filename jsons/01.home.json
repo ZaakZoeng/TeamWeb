@@ -1,0 +1,33 @@
+{
+    "basic": {
+        "title": "Welcome to TeamWeb!",
+        "subtitle": "A ready-to-use responsive website demo for Team",
+        "introduction": "TeamWeb is a front-end static website project built with Vue.js, designed specifically for lab teams or individuals to easily showcase and manage information. It offers a simple and responsive solution that allows users to maintain and display various details. Whether you're running a lab, a startup, or simply need a place to present your team's work, TeamWeb provides a ready-to-use template that can be easily customized to fit your needs."
+    },
+    "news": [
+        {
+            "title": "🔥🔥🔥 TeamWeb is now live!",
+            "link": "https://zaakzoeng.github.io/TeamWeb/",
+            "datetime": "2025-04-15",
+            "address": "Online",
+            "introduction": "TeamWeb is a fully integrated, collaborative web platform designed to enhance the productivity and efficiency of teams. Whether you are part of an academic lab, a research group, or a business team, TeamWeb provides all the essential tools to streamline your workflows. From customizable dashboards and interactive data visualizations to real-time communication and task management, TeamWeb helps your team stay organized and focused. With its intuitive interface and seamless integration with various third-party services, TeamWeb enables you to collaborate effortlessly, manage projects efficiently, and track progress in real-time. The platform is responsive, so you can access your team’s work from any device, anywhere, ensuring that you stay connected even when working remotely. TeamWeb is more than just a demo – it’s a powerful, ready-to-use solution for any team looking to optimize their collaboration and project management processes.",
+            "isShow": true
+        },
+        {
+            "title": "News 1",
+            "link": "https://zaakzoeng.github.io/TeamWeb/",
+            "datetime": "2025-10-01",
+            "address": "Online",
+            "introduction": "Stay updated with the latest news and updates from TeamWeb. We're constantly improving our platform to provide you with new features and a better experience.",
+            "isShow": true
+        },
+        {
+            "title": "News 2",
+            "link": "https://zaakzoeng.github.io/TeamWeb/",
+            "datetime": "2025-07-01",
+            "address": "Online",
+            "introduction": "Stay updated with the latest news and updates from TeamWeb.",
+            "isShow": false
+        }
+    ]
+}

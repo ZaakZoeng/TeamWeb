@@ -1,0 +1,33 @@
+# useElementPlusTheme 动态更改主题色
+
+## 一、基本使用
+
+```
+npm i use-element-plus-theme
+// 或者
+pnpm i use-element-plus-theme
+```
+
+## 二、预览
+
+1.克隆项目
+
+```
+git clone https://gitee.com/cheerwhy/use-element-plus-theme.git
+```
+
+2.安装依赖
+
+```
+pnpm install
+// 或者
+npm install
+```
+
+3.开发调试预览
+
+```
+pnpm dev
+//或者
+npm run dev
+```
