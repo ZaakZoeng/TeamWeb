@@ -1,5 +1,6 @@
 # TeamWeb
 A ready-to-use responsive website demo for Team or Academic Lab.
+<<<<<<< HEAD
 
 ![](https://cdn.nlark.com/yuque/0/2025/svg/2700122/1744895276909-7ab56152-c2ea-4194-b0ea-0c6619cf8d8d.svg)
 
@@ -661,3 +662,5 @@ Contact是联系信息的展示。Contact页面中引入的地图是Leaflet地�
 ## 证书（License）
 The theme is available as open source under the terms of the [MIT License](https://github.com/ZaakZoeng/TeamWeb/blob/main/LICENSE).
 
+=======
+>>>>>>> b9478b174d4f8b1e78d00bdd28aafb0f27788a28
