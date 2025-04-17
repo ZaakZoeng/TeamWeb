@@ -16,76 +16,77 @@ A ready-to-use responsive website demo for Team or Academic Lab.
 
 ## 项目架构（Project architecture）
 ```bash
-+---vue.config.js						// webpack配置
++---vue.config.js                        // webpack配置
 |
 +---public
-|   |   favicon.ico						// ico图标
+|   |   favicon.ico                      // ico图标
 |   |
-|   +---assets							// 图文资产
+|   +---assets                           // 图文资产
 |   |   +---00.basic
-|   |   |       background.png			// 页面背景图片
-|   |   |       logo.svg				// 导航栏左侧的logo
-|   |   |       parallelLightLogo.png	// 底栏Footer左侧的Logo
+|   |   |       background.png           // 页面背景图片
+|   |   |       logo.svg                 // 导航栏左侧的logo
+|   |   |       parallelLightLogo.png    // 底栏Footer左侧的Logo
 |   |   |
 |   |   +---01.home
 |   |   +---02.research
 |   |   +---03.team
 |   |   +---04.publications
-|   |   |   |   papers.bib				// 发表论文的bibtex配置项
+|   |   |   |   papers.bib               // 发表论文的bibtex配置项
 |   |   |   |
-|   |   |   +---pdf						// 发表论文的pdf文件
+|   |   |   +---pdf                      // 发表论文的pdf文件
 |   |   |   |
-|   |   |   \---preview					// 发表论文的preview图片
+|   |   |   \---preview                  // 发表论文的preview图片
 |   |   |
 |   |   +---05.resources
 |   |   +---06.moments
 |   |   \---07.contact
-|   |           map.html				// 一个Leaflet地图定位HTML文件
+|   |           map.html                // 一个Leaflet地图定位HTML文件
 |   |
-|   \---jsons							// Json配置项
-|           00.basic.json				// 基本配置项
-|           01.home.json				// Home首页配置项
-|           02.research.json			// Research页配置项
-|           03.team.json				// Team页配置项
-|           04.publications.json		// Publications页配置项
-|           05.resources.json			// Resources页配置项
-|           06.moments.json				// Moments页配置项
-|           07.contact.json				// Contact页配置项
+|   \---jsons                            // Json配置项
+|           00.basic.json                // 基本配置项
+|           01.home.json                 // Home首页配置项
+|           02.research.json             // Research页配置项
+|           03.team.json                 // Team页配置项
+|           04.publications.json         // Publications页配置项
+|           05.resources.json            // Resources页配置项
+|           06.moments.json              // Moments页配置项
+|           07.contact.json              // Contact页配置项
 |
 \---src
-    |   App.vue							// 根组件
-    |   main.ts							// 程序入口文件
+    |   App.vue                          // 根组件
+    |   main.ts                          // 程序入口文件
     |
     +---assets
-    |       base.css					// 基础样式文件
+    |       base.css                      // 基础样式文件
     |       main.css
     |
     +---components
-    |       Backtop.vue					// 点击回到顶部组件
-    |       Progress.vue				// 点击回到顶部组件
+    |       Backtop.vue                   // 点击回到顶部组件
+    |       Progress.vue                  // 进度条组件
     |
     +---layout
-    |       Footer.vue					// 底栏布局										
-    |       Header.vue					// 导航栏布局
+    |       Footer.vue                    // 底栏布局
+    |       Header.vue                    // 导航栏布局
     |
     +---router
-    |       index.ts					// 单页面路由注册组件
+    |       index.ts                      // 单页面路由注册组件
     |
     +---styles
-    |   |   index.scss					// 基础样式
+    |   |   index.scss                    // 基础样式
     |   |
     |   \---element
-    |           dark.scss				// 暗黑模式
-    |           light.scss				// 明亮模式
+    |           dark.scss                 // 暗黑模式
+    |           light.scss                // 明亮模式
     |
     \---views
-            Contact.vue					// 联系我们
-            Home.vue					// 首页
-            Moments.vue					// 时间记录
-            Publications.vue			// 发表刊物
-            Research.vue				// 研究方向
-            Resources.vue				// 工具资源
-            Team.vue					// 团队情况
+            Contact.vue                   // 联系我们
+            Home.vue                      // 首页
+            Moments.vue                   // 时间记录
+            Publications.vue              // 发表刊物
+            Research.vue                  // 研究方向
+            Resources.vue                 // 工具资源
+            Team.vue                      // 团队情况
+
 ```
 
 ## 技术栈（Technology stack）
