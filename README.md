@@ -153,6 +153,8 @@ TeamWeb 是基于页面独立的逻辑进行开发完成的，即每一个页面
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744894309776-448d6426-20cc-4f14-bfcf-b9e26b83a409.png)
 
+`/public/jsons/00.basic.json`
+
 ```json
 {
   "header": {
@@ -176,6 +178,8 @@ TeamWeb 是基于页面独立的逻辑进行开发完成的，即每一个页面
 首页主要展示了实验室主题以及Hot News内容。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744891919103-4734b88d-a24f-4bab-936f-ccb8b8b2382a.png)
+
+`/public/jsons/01.home.json`
 
 ```json
 {
@@ -210,6 +214,9 @@ Research页主要展示团队的多个研究方向介绍。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744891881235-ef716caa-d3c5-45a5-9e07-53bcb75e98bf.png)
 
+
+`/public/jsons/02.research.json`
+
 ```json
 {
     "basic": {},		// Research页基础配置项信息
@@ -238,6 +245,9 @@ Team页展示团队成员、合作单位等信息。
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744892040231-dbdf1ddb-3da3-4d97-a4d3-32b01410cda9.png)
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744892171312-02073643-f6a4-4785-b9cf-e131aeb2bf9c.png)
+
+
+`/public/jsons/03.team.json`
 
 ```json
 {
@@ -380,6 +390,9 @@ Publications主要展示刊物发表情况。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744893210483-cec6733b-fb0f-4768-a5da-546094a5e78d.png)
 
+
+`/public/jsons/04.publications.json`
+
 ```json
 {
     "basic": {
@@ -389,9 +402,12 @@ Publications主要展示刊物发表情况。
 }
 ```
 
-值得注意的是，《刊物发表》的配置项与其他页面配置方式有所不同，为了更便于文献的展示，项目使用了常见的bibtex引文格式，用户直接复制文献的bib引文到 /public/assets/04.publications/papers.bib 中即可完成配置，除此之外，每个paper还支持额外配置“keywords、google_scholar、pmid、website、chinese_report、pdf、citation”等内容。
+值得注意的是，《刊物发表》的配置项与其他页面配置方式有所不同，为了更便于文献的展示，项目使用了常见的bibtex引文格式，用户直接复制文献的bib引文到 `/public/assets/04.publications/papers.bib` 中即可完成配置，除此之外，每个paper还支持额外配置“keywords、google_scholar、pmid、website、chinese_report、pdf、citation”等内容。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744893180374-a9fc4486-2404-41b0-93bc-5b2059ec5921.png)
+
+
+`/public/assets/04.publications/papers.bib`
 
 ```bash
 ---
@@ -430,6 +446,8 @@ Publications主要展示刊物发表情况。
 Resources页面主要展示各种资源链接，提供一个公共的跳板。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744893252441-d8d03993-2f74-4265-b80c-97ddb4ef6455.png)
+
+`/public/jsons/05.resources.json`
 
 ```json
 {
@@ -530,6 +548,8 @@ Moments页面记录团队的高光时刻。
 
 整个项目支持响应式布局，即在不同大小设备屏幕上有相应的布局展示，在Moments页面中尤为明显，具体体现在宽屏时为左右对称布局展示moments内容，窄屏时则统一调整至左侧时间线展示moments。
 
+`/public/jsons/06.moments.json`
+
 ```json
 {
     "basic": {
@@ -566,6 +586,8 @@ Moments页面记录团队的高光时刻。
 Contact是联系信息的展示。Contact页面中引入的地图是Leaflet地图的HTML格式文件，用户可以自行前往[https://leafletjs.com/](https://leafletjs.com/)使用定义。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744894366327-3b21c46a-9943-4f11-bed6-b23eeeb6c701.png)
+
+`/public/jsons/07.contact.json`
 
 ```json
 {
