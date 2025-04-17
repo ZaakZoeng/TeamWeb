@@ -15,7 +15,7 @@ const researches = ref<any>(null);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/jsons/02.research.json');
+    const response = await fetch('./jsons/02.research.json');
     const data = await response.json();
     researchBasic.value = data.basic;
     researches.value = data.researches;

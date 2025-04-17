@@ -15,7 +15,7 @@ const moments = ref<any>(null);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/jsons/06.moments.json');
+    const response = await fetch('./jsons/06.moments.json');
     const data = await response.json();
     momentsBasic.value = data.basic;
     moments.value = data.moments;

@@ -3,33 +3,33 @@
         "subtitle": "TeamWeb Researches",
         "slogan": "Go for Science and Seek for Progress",
         "researchIntroduction": "TeamWeb is a fully integrated, collaborative web platform designed to enhance the productivity and efficiency of teams. Whether you are part of an academic lab, a research group, or a business team, TeamWeb provides all the essential tools to streamline your workflows. From customizable dashboards and interactive data visualizations to real-time communication and task management, TeamWeb helps your team stay organized and focused. With its intuitive interface and seamless integration with various third-party services, TeamWeb enables you to collaborate effortlessly, manage projects efficiently, and track progress in real-time. The platform is responsive, so you can access your team’s work from any device, anywhere, ensuring that you stay connected even when working remotely. TeamWeb is more than just a demo – it’s a powerful, ready-to-use solution for any team looking to optimize their collaboration and project management processes.",
-        "researchImage": "/assets/02.research/ResearchImage.jpg"
+        "researchImage": "./assets/02.research/ResearchImage.jpg"
     },
     "researches": [
         {
             "title": "AI in Genomic Research",
-            "image": "/assets/02.research/Research-AI.jpg",
+            "image": "./assets/02.research/Research-AI.jpg",
             "subtitle": "Leveraging AI for genomic data analysis.",
             "content": "In this research, we explore the application of artificial intelligence (AI) in the field of genomics, specifically focusing on the analysis of large genomic datasets. By using AI algorithms, we aim to identify novel patterns in genetic information that could lead to new insights into human diseases and therapies.",
             "isShow": true
         },
         {
             "title": "Renewable Energy Optimization",
-            "image": "/assets/02.research/Research-RenewableEnergy.jpg",
+            "image": "./assets/02.research/Research-RenewableEnergy.jpg",
             "subtitle": "Optimizing renewable energy systems for sustainable future.",
             "content": "This research is focused on improving the efficiency of renewable energy systems, such as solar and wind energy. Through advanced optimization algorithms, we aim to maximize energy generation while minimizing costs and environmental impact. Our goal is to make renewable energy more accessible and efficient worldwide.",
             "isShow": true
         },
         {
             "title": "Quantum Computing in Drug Discovery",
-            "image": "/assets/02.research/Research-DrugDiscover.jpg",
+            "image": "./assets/02.research/Research-DrugDiscover.jpg",
             "subtitle": "Using quantum computing to revolutionize drug discovery.",
             "content": "This project investigates how quantum computing can accelerate drug discovery by simulating molecular structures at a much faster rate than traditional methods. By leveraging quantum algorithms, we aim to streamline the process of identifying potential drug candidates and significantly reduce the time required for new drug development.",
             "isShow": true
         },
         {
             "title": "Smart Cities and IoT",
-            "image": "/assets/02.research/Research-SmartCity.jpg",
+            "image": "./assets/02.research/Research-SmartCity.jpg",
             "subtitle": "Building smart cities with the power of IoT.",
             "content": "The research focuses on the integration of Internet of Things (IoT) technologies in building smarter cities. We explore how IoT devices can be used to enhance urban living by improving traffic management, energy efficiency, and public safety. This research has the potential to create more sustainable, connected cities.",
             "isShow": true
@@ -50,14 +50,14 @@
         },
         {
             "title": "Research 1",
-            "image": "/assets/02.research/Research-other1.jpg",
+            "image": "./assets/02.research/Research-other1.jpg",
             "subtitle": "Research 1's subtitle.",
             "content": "Research 1's content. Research 1's content. Research 1's content. Research 1's content. Research 1's content. Research 1's content. Research 1's content. Research 1's content. Research 1's content. Research 1's content. Research 1's content.",
             "isShow": true
         },
         {
             "title": "Research 2",
-            "image": "/assets/02.research/Research-other2.jpg",
+            "image": "./assets/02.research/Research-other2.jpg",
             "subtitle": "Research 2's subtitle.",
             "content": "Research 2's content. Research 2's content. Research 2's content. Research 2's content. Research 2's content. Research 2's content. Research 2's content. Research 2's content. Research 2's content. Research 2's content. Research 2's content. Research 2's content.",
             "isShow": true

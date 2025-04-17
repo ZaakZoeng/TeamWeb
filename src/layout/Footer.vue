@@ -13,7 +13,7 @@ const poweredList = ref<any>(null);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/jsons/00.basic.json');
+    const response = await fetch('./jsons/00.basic.json');
     const data = await response.json();
     logo.value = data.footer.logo;
     logoLink.value = data.footer.logoLink;

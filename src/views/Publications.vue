@@ -65,12 +65,12 @@ function transformPapersToPublications(papers: any[]): any[] {
 
 onMounted(async () => {
   try {
-    const response = await fetch('/jsons/04.publications.json');
+    const response = await fetch('./jsons/04.publications.json');
     const data = await response.json();
     publicationsBasic.value = data.basic;
 
     // 获取 BibTeX 文件内容
-    const responsePapers = await fetch('/assets/04.publications/papers.bib');  // 假设这里是 BibTeX 文件的路径
+    const responsePapers = await fetch('./assets/04.publications/papers.bib');  // 假设这里是 BibTeX 文件的路径
     const bibtexData = await responsePapers.text(); // 获取文件内容并转换为字符串
     // console.log(bibtexData);
 

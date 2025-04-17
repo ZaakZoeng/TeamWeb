@@ -17,7 +17,7 @@ const homeNews = ref<any>(null);
 onMounted(async () => {
   try {
     // 使用 fetch 或 Axios 来请求数据
-    const response = await fetch('/jsons/01.home.json'); // 获取 public 目录中的 json 文件
+    const response = await fetch('./jsons/01.home.json'); // 获取 public 目录中的 json 文件
     const data = await response.json();
     homeBasic.value = data.basic; // 将数据赋值给响应式变量
     homeNews.value = data.news; // 将数据赋值给响应式变量

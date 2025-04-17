@@ -16,7 +16,7 @@ const contactMap = ref<any>(null);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/jsons/07.contact.json');
+    const response = await fetch('./jsons/07.contact.json');
     const data = await response.json();
     contactBasic.value = data.basic;
     contactContent.value = data.content;

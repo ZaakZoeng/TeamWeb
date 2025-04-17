@@ -3,11 +3,11 @@
         "subtitle": "A Happy Family",
         "slogan": "Come from all over the world to meet",
         "teamIntroduction": "As an open-source project, TeamWeb is constantly evolving, and we welcome contributions from developers of all experience levels. Whether you're an experienced developer looking to tackle complex features or a newcomer excited to learn and help out, there's a place for you in our community. From fixing bugs and writing documentation to adding new features and optimizing the codebase, there are endless ways you can contribute to making TeamWeb even better. If you have an idea to make TeamWeb better, or if you see a problem that needs fixing, we invite you to get involved. This project is only as strong as the people who contribute to it, and every pull request, bug report, and suggestion helps us build a better product for everyone. Join us in maintaining, enhancing, and evolving TeamWeb—let's build something amazing together, one line of code at a time.",
-        "teamImage": "/assets/03.team/family.jpg"
+        "teamImage": "./assets/03.team/family.jpg"
     },
     "persons": [
         {
-            "avatar": "/assets/03.team/team-ZhangZe.jpg",
+            "avatar": "./assets/03.team/team-ZhangZe.jpg",
             "name": "Ze Zhang",
             "position": "Ph.D. candidate student",
             "website": "https://zaakzoeng.github.io/",
@@ -110,7 +110,7 @@
             "isShow": true
         },
         {
-            "avatar": "/assets/03.team/team-McDonald's.jpg",
+            "avatar": "./assets/03.team/team-McDonald's.jpg",
             "name": "McDonald's",
             "position": "Restaurant industry",
             "website": "https://www.mcdonalds.com/",
@@ -541,7 +541,7 @@
         },
         {
             "unit": "UCAS",
-            "logo": "/assets/03.team/supports-UCAS.png",
+            "logo": "./assets/03.team/supports-UCAS.png",
             "link": "https://www.ucas.ac.cn/"
         }
     ]

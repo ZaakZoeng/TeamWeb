@@ -18,7 +18,7 @@ const teamSupports = ref<any>(null);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/jsons/03.team.json');
+    const response = await fetch('./jsons/03.team.json');
     const data = await response.json();
     teamBasic.value = data.basic;
     teamPersons.value = data.persons;
