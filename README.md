@@ -4,7 +4,7 @@ A ready-to-use responsive website demo for Team or Academic Lab.
 ![](https://cdn.nlark.com/yuque/0/2025/svg/2700122/1744895276909-7ab56152-c2ea-4194-b0ea-0c6619cf8d8d.svg)
 
 ## 网页预览（TeamWeb preview）
-+ TeamWeb preview：[https://zz.biometa.top/TeamWeb/](https://zz.biometa.top/TeamWeb/)
++ TeamWeb preview：[https://zaakzoeng.github.io/TeamWeb/](https://zaakzoeng.github.io/TeamWeb/)
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744883785753-4e21eeb9-a71c-4c90-ac1e-7bdeda07750d.png)
 
@@ -203,7 +203,7 @@ TeamWeb 是基于页面独立的逻辑进行开发完成的，即每一个页面
     "news": [				// 首页Hot News信息
         {
             "title": "🔥🔥🔥 TeamWeb is now live!",		// 文本
-            "link": "https://zz.biometa.top/TeamWeb/",		// 链接
+            "link": "https://zaakzoeng.github.io/TeamWeb/",		// 链接
             "datetime": "2025-04-15",		// 时间格式XXXX-XX-XX
             "address": "Online",				// 文本
             "introduction": "TeamWeb is a fully integrated, collaborative web platform designed to enhance the productivity and efficiency of teams. Whether you are part of an academic lab, a research group, or a business team, TeamWeb provides all the essential tools to streamline your workflows. From customizable dashboards and interactive data visualizations to real-time communication and task management, TeamWeb helps your team stay organized and focused. With its intuitive interface and seamless integration with various third-party services, TeamWeb enables you to collaborate effortlessly, manage projects efficiently, and track progress in real-time. The platform is responsive, so you can access your team’s work from any device, anywhere, ensuring that you stay connected even when working remotely. TeamWeb is more than just a demo – it’s a powerful, ready-to-use solution for any team looking to optimize their collaboration and project management processes.",		// 文本
@@ -211,7 +211,7 @@ TeamWeb 是基于页面独立的逻辑进行开发完成的，即每一个页面
         },
         {
             "title": "News 1",
-            "link": "https://zz.biometa.top/TeamWeb/",
+            "link": "https://zaakzoeng.github.io/TeamWeb/",
             "datetime": "2025-10-01",
             "address": "Online",
             "introduction": "Stay updated with the latest news and updates from TeamWeb. We're constantly improving our platform to provide you with new features and a better experience.",
