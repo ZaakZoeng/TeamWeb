@@ -1,0 +1,16 @@
+{
+    "header": {
+        "logo": "/assets/00.basic/logo.svg"
+    },
+    "footer": {
+        "logo": "/assets/00.basic/parallelLightLogo.png",
+        "logoLink": "",
+        "clustrmaps": "//clustrmaps.com/map_v2.png?cl=ffffff&w=100&t=tt&d=tn5kfLlfmc04L5tfIH3RXxlb4N3Hd7hZmmq0gAAnMZs",
+        "poweredList": [
+            {
+                "name": "Ze Zhang",
+                "link": "https://zaakzoeng.github.io/"
+            }
+        ]
+    }
+}

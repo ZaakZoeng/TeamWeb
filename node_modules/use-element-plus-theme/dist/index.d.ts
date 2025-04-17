@@ -1,0 +1,3 @@
+export declare function useElementPlusTheme(color?: string): {
+    changeTheme: (color?: string | undefined) => void;
+};

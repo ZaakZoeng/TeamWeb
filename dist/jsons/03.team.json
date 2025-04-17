@@ -1,0 +1,548 @@
+{
+    "basic": {
+        "subtitle": "A Happy Family",
+        "slogan": "Come from all over the world to meet",
+        "teamIntroduction": "As an open-source project, TeamWeb is constantly evolving, and we welcome contributions from developers of all experience levels. Whether you're an experienced developer looking to tackle complex features or a newcomer excited to learn and help out, there's a place for you in our community. From fixing bugs and writing documentation to adding new features and optimizing the codebase, there are endless ways you can contribute to making TeamWeb even better. If you have an idea to make TeamWeb better, or if you see a problem that needs fixing, we invite you to get involved. This project is only as strong as the people who contribute to it, and every pull request, bug report, and suggestion helps us build a better product for everyone. Join us in maintaining, enhancing, and evolving TeamWeb—let's build something amazing together, one line of code at a time.",
+        "teamImage": "/assets/03.team/family.jpg"
+    },
+    "persons": [
+        {
+            "avatar": "/assets/03.team/team-ZhangZe.jpg",
+            "name": "Ze Zhang",
+            "position": "Ph.D. candidate student",
+            "website": "https://zaakzoeng.github.io/",
+            "commerce": [
+                {
+                    "icon": [
+                        "fas",
+                        "envelope"
+                    ],
+                    "account": "zhangze21@mails.ucas.ac.cn",
+                    "link": "mailto:zhangze21@mails.ucas.ac.cn"
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "google"
+                    ],
+                    "account": "Ze's Google Scholar",
+                    "link": "https://scholar.google.com/citations?user=6eXARMsAAAAJ"
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "github"
+                    ],
+                    "account": "Ze's Github",
+                    "link": "https://github.com/ZaakZoeng"
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "twitter"
+                    ],
+                    "account": "",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "linkedin"
+                    ],
+                    "account": "",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "facebook"
+                    ],
+                    "account": "",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "zhihu"
+                    ],
+                    "account": "",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fas",
+                        "link"
+                    ],
+                    "account": "Ze's Personal Website",
+                    "link": "https://zz.biometa.top/"
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "weixin"
+                    ],
+                    "account": "ZaakZoeng"
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "qq"
+                    ],
+                    "account": "2216672515"
+                },
+                {
+                    "icon": [
+                        "fas",
+                        "phone"
+                    ],
+                    "account": "+86-19276868848"
+                }
+            ],
+            "interests": [
+                "Bioinformatics",
+                "Database tools",
+                "Single cell & ST Multi omics"
+            ],
+            "biography": "Ze received his bachelor's degree in information security from Nanchang university in 2021.",
+            "hometown": "Ningjin, Xingtai, Hebei, China",
+            "fact": "He always wanted to be someone who could go to bed early and get up early.",
+            "timeline": "2021.06 - Now",
+            "isShow": true
+        },
+        {
+            "avatar": "/assets/03.team/team-McDonald's.jpg",
+            "name": "McDonald's",
+            "position": "Restaurant industry",
+            "website": "https://www.mcdonalds.com/",
+            "commerce": [
+                {
+                    "icon": [
+                        "fas",
+                        "envelope"
+                    ],
+                    "account": "Email",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "google"
+                    ],
+                    "account": "Google Scholar",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "github"
+                    ],
+                    "account": "Github",
+                    "link": "https://github.com/mcdcorp"
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "twitter"
+                    ],
+                    "account": "Twitter",
+                    "link": "https://x.com/McDonalds"
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "linkedin"
+                    ],
+                    "account": "Linkedin",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "facebook"
+                    ],
+                    "account": "Facebook",
+                    "link": "https://www.facebook.com/McDonalds/"
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "zhihu"
+                    ],
+                    "account": "Zhihu",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fas",
+                        "link"
+                    ],
+                    "account": "CV",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "weixin"
+                    ],
+                    "account": "WeChat"
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "qq"
+                    ],
+                    "account": "QQ"
+                },
+                {
+                    "icon": [
+                        "fas",
+                        "phone"
+                    ],
+                    "account": "+1 806-445-0333"
+                }
+            ],
+            "interests": [
+                "Hamburger",
+                "French fries",
+                "Chicken steak",
+                "Ice cream"
+            ],
+            "biography": "ba da ba ba ba",
+            "hometown": "Chicago, IL, USA",
+            "fact": "grimace is a close personal friend of mine",
+            "timeline": "1955 - Now",
+            "isShow": true
+        },
+        {
+            "avatar": "https://avatars.githubusercontent.com/u/20250415",
+            "name": "Member 1",
+            "position": "Developer",
+            "website": "",
+            "commerce": [
+                {
+                    "icon": [
+                        "fas",
+                        "envelope"
+                    ],
+                    "account": "Email",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "google"
+                    ],
+                    "account": "Google Scholar",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "github"
+                    ],
+                    "account": "Github",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "twitter"
+                    ],
+                    "account": "Twitter",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "linkedin"
+                    ],
+                    "account": "Linkedin",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "facebook"
+                    ],
+                    "account": "Facebook",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "zhihu"
+                    ],
+                    "account": "Zhihu",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fas",
+                        "link"
+                    ],
+                    "account": "CV",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "weixin"
+                    ],
+                    "account": "WeChat ID"
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "qq"
+                    ],
+                    "account": "QQ Number"
+                },
+                {
+                    "icon": [
+                        "fas",
+                        "phone"
+                    ],
+                    "account": "Phone Number"
+                }
+            ],
+            "interests": [
+                "Web Development",
+                "Open Source",
+                "JavaScript"
+            ],
+            "biography": "An experienced web developer with a passion for building modern web applications.",
+            "hometown": "New York, USA",
+            "fact": "I once built a web app in 24 hours for a hackathon.",
+            "timeline": "2025.04 - Present",
+            "isShow": true
+        },
+        {
+            "avatar": "https://avatars.githubusercontent.com/u/20250416",
+            "name": "Member 2",
+            "position": "Developer",
+            "website": "",
+            "commerce": [
+                {
+                    "icon": [
+                        "fas",
+                        "envelope"
+                    ],
+                    "account": "Email",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "google"
+                    ],
+                    "account": "Google Scholar",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "github"
+                    ],
+                    "account": "Github",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "twitter"
+                    ],
+                    "account": "Twitter",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "linkedin"
+                    ],
+                    "account": "Linkedin",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "facebook"
+                    ],
+                    "account": "Facebook",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "zhihu"
+                    ],
+                    "account": "Zhihu",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fas",
+                        "link"
+                    ],
+                    "account": "CV",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "weixin"
+                    ],
+                    "account": "WeChat ID"
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "qq"
+                    ],
+                    "account": "QQ Number"
+                },
+                {
+                    "icon": [
+                        "fas",
+                        "phone"
+                    ],
+                    "account": "Phone Number"
+                }
+            ],
+            "interests": [
+                "Web Development",
+                "Open Source",
+                "JavaScript"
+            ],
+            "biography": "An experienced web developer with a passion for building modern web applications.",
+            "hometown": "New York, USA",
+            "fact": "I once built a web app in 24 hours for a hackathon.",
+            "timeline": "2025.04 - Present",
+            "isShow": true
+        },
+        {
+            "avatar": "https://avatars.githubusercontent.com/u/20250417",
+            "name": "Member 3",
+            "position": "Developer",
+            "website": "",
+            "commerce": [
+                {
+                    "icon": [
+                        "fas",
+                        "envelope"
+                    ],
+                    "account": "Email",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "google"
+                    ],
+                    "account": "Google Scholar",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "github"
+                    ],
+                    "account": "Github",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "twitter"
+                    ],
+                    "account": "Twitter",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "linkedin"
+                    ],
+                    "account": "Linkedin",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "facebook"
+                    ],
+                    "account": "Facebook",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "zhihu"
+                    ],
+                    "account": "Zhihu",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fas",
+                        "link"
+                    ],
+                    "account": "CV",
+                    "link": ""
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "weixin"
+                    ],
+                    "account": "WeChat ID"
+                },
+                {
+                    "icon": [
+                        "fab",
+                        "qq"
+                    ],
+                    "account": "QQ Number"
+                },
+                {
+                    "icon": [
+                        "fas",
+                        "phone"
+                    ],
+                    "account": "Phone Number"
+                }
+            ],
+            "interests": [
+                "Web Development",
+                "Open Source",
+                "JavaScript"
+            ],
+            "biography": "An experienced web developer with a passion for building modern web applications.",
+            "hometown": "New York, USA",
+            "fact": "I once built a web app in 24 hours for a hackathon.",
+            "timeline": "2025.04 - Present",
+            "isShow": true
+        }
+    ],
+    "supports": [
+        {
+            "unit": "HIAS",
+            "logo": "http://hias.ucas.ac.cn/images/t_logo.png",
+            "link": "http://hias.ucas.ac.cn/"
+        },
+        {
+            "unit": "CAS",
+            "logo": "https://www.zkszl.net/zhongke/userfiles/1/images/zk-logo.png",
+            "link": "https://www.cas.cn/"
+        },
+        {
+            "unit": "CEMCS",
+            "logo": "http://cemcs.cas.cn//images/shxbs_logo.png",
+            "link": "http://cemcs.cas.cn/"
+        },
+        {
+            "unit": "UCAS",
+            "logo": "/assets/03.team/supports-UCAS.png",
+            "link": "https://www.ucas.ac.cn/"
+        }
+    ]
+}
