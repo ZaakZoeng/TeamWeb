@@ -1,17 +1,40 @@
 # TeamWeb
 A ready-to-use responsive website demo for Team or Academic Lab.
 
+✨ 一个基于 Vue3 + Vite 的静态网页模板，适用于实验室、科研团队、开源项目主页搭建。支持 GitHub Pages 一键部署，实现开盘即用。
+
 ![](https://cdn.nlark.com/yuque/0/2025/svg/2700122/1744895276909-7ab56152-c2ea-4194-b0ea-0c6619cf8d8d.svg)
 
+
 ## 网页预览（TeamWeb preview）
-+ TeamWeb preview：[https://zaakzoeng.github.io/TeamWeb/](https://zaakzoeng.github.io/TeamWeb/)
+🌐 官方示例，TeamWeb preview：[https://zaakzoeng.github.io/TeamWeb/](https://zaakzoeng.github.io/TeamWeb/)
+🌐 中文版使用指南：[https://www.yuque.com/parallellight/biometa/tb8mrspti6wggyd2](https://www.yuque.com/parallellight/biometa/tb8mrspti6wggyd2)
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744883785753-4e21eeb9-a71c-4c90-ac1e-7bdeda07750d.png)
+
 
 ## 社区用户（User community）
 | Communities | [**BioMeta**](https://biometa.top/), [**2BF-Club**](https://2bf.biometa.top/), [**AIxOmics**](https://aixomics.biometa.top/) |
 | --- | --- |
 | Labs | [**ChenLab**](https://chenlab.biometa.top/) |
+
+
+## 核心功能 (Core Features)
+- 🌐 响应式页面，适配手机/PC 设备
+- 🔄 全组件化设计，JSON/图片配置即可更新内容
+- 🔗 支持 BibTeX 文献显示和主题/合作单位配置
+- 🔧 轻量度和开发者亲和，支持明/暗模式
+- ✨ GitHub Pages 直接部署，无需后端
+
+
+## 技术栈（Technology stack）
+```bash
+Vite
+Vue3
+TypeScript
+Element Plus
+Font Awesome
+```
 
 
 ## 项目架构（Project architecture）
@@ -89,15 +112,41 @@ A ready-to-use responsive website demo for Team or Academic Lab.
 
 ```
 
-## 技术栈（Technology stack）
+## 快速开始（Quick Start）
 ```bash
-Vite
-Vue3
-TypeScript
-Element Plus
-Font Awesome
+git clone https://github.com/ZaakZoeng/TeamWeb.git
+cd TeamWeb
+npm install
+npm run dev
+# 打开浏览器访问 http://localhost:5173/TeamWeb/
 ```
 
+
+## 简易指南 (Easy Guide)
+详细指南包括:
+1. 环境准备 (Node.js v22.14.0)
+2. 克隆项目 (git clone)
+3. 配置 vite.config.ts 用于 GitHub Pages 部署
+4. 启动本地服务 npm run dev
+5. 配置 JSON 和图片替换页面内容
+6. 构建生产包 npm run build
+7. 使用 gh-pages 分支部署 GitHub Pages
+
+
+## 参考工具（Reference Tools）
++ Get Emoji：[https://getemoji.com/](https://getemoji.com/)
++ Favicon Generator：[https://realfavicongenerator.net/](https://realfavicongenerator.net/)
++ Contrib Rocks：[https://contrib.rocks/](https://contrib.rocks/)
++ Star History：[https://www.star-history.com/](https://www.star-history.com/)
++ Zhong Guo Se：[https://www.zhongguose.com/](https://www.zhongguose.com/)
+
+
+## 开发日志（Logs）
+- [ ] 样式整体化，提供用户自行选择修改配色
+- [X] 2025.04.18，完善文档
+- [x] 2025.04.17 TeamWeb initial commit
+
+---
 ## 使用指南（Beginner's Guide）
 ### 1.准备环境（Prepare the environment）
 下载安装[`Node.js`](https://nodejs.org/en/download) 配置开发环境（建议选择`v22.14.0`版本）
@@ -400,7 +449,7 @@ Team 页展示团队成员、合作单位等信息。
 ### 04.publications
 Publications 主要展示刊物发表情况。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744893210483-cec6733b-fb0f-4768-a5da-546094a5e78d.png)
+![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744958554246-00a059bc-9f10-4527-8331-18b1bafe7931.png)
 
 
 `/public/jsons/04.publications.json`
@@ -556,7 +605,7 @@ Resources 页面主要展示各种资源链接，提供一个公共的跳板。
 ### 06.moments
 Moments 页面记录团队的高光时刻。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744893321303-e9b91376-09b1-492a-8786-b19fb18fed93.png)
+![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744958661604-b4bb2e3f-cabf-4f64-9046-0d347e348fdc.png)
 
 整个项目支持响应式布局，即在不同大小设备屏幕上有相应的布局展示，在 Moments 页面中尤为明显，具体体现在宽屏时为左右对称布局展示 moments 内容，窄屏时则统一调整至左侧时间线展示 moments。
 
@@ -597,7 +646,7 @@ Moments 页面记录团队的高光时刻。
 ### 07.contact
 Contact 是联系信息的展示。Contact 页面中引入的地图是 Leaflet 地图的 HTML 格式文件，用户可以自行前往 [https://leafletjs.com/](https://leafletjs.com/) 使用定义。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744894366327-3b21c46a-9943-4f11-bed6-b23eeeb6c701.png)
+![](https://cdn.nlark.com/yuque/0/2025/png/2700122/1744958733060-692141ec-698f-4d28-b7cd-17a1db0b80ef.png)
 
 `/public/jsons/07.contact.json`
 
@@ -683,15 +732,6 @@ Contact 是联系信息的展示。Contact 页面中引入的地图是 Leaflet �
 
 然后，在`Github`的该项目中选择“Settings”，在“General”中选择“Pages”。再选择“Deploy from a branch”，稍等完成处理。
 
-## 参考工具（Reference Tools）
-+ Get Emoji：[https://getemoji.com/](https://getemoji.com/)
-+ Favicon Generator：[https://realfavicongenerator.net/](https://realfavicongenerator.net/)
-+ Contrib Rocks：[https://contrib.rocks/](https://contrib.rocks/)
-+ Star History：[https://www.star-history.com/](https://www.star-history.com/)
-+ Zhong Guo Se：[https://www.zhongguose.com/](https://www.zhongguose.com/)
-
-## 开发日志（Logs）
-- [x] 2025.04.17 TeamWeb initial commit
 
 ## 证书（License）
 The theme is available as open source under the terms of the [MIT License](https://github.com/ZaakZoeng/TeamWeb/blob/main/LICENSE).
